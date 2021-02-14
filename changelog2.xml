@@ -12,7 +12,7 @@
             <column name="active" type="boolean" defaultValueBoolean="true"/>
        </createTable>
 	   <createTable tableName="fuj">
-            <column id="id" type="int">
+            <column fujId="id" type="int">
                  <constraints primaryKey="true" nullable="false"/>
         </column>
             <column code="firstname" type="varchar(50)"/>
