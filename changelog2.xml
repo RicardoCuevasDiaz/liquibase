@@ -11,16 +11,18 @@
             </column>
             <column name="active" type="boolean" defaultValueBoolean="true"/>
        </createTable>
-	   <createTable tableName="fuj">
-            <column fujId="id" type="int">
+	   
+	     <createTable tableName="fuji">
+            <column name="id" type="int">
                  <constraints primaryKey="true" nullable="false"/>
         </column>
-            <column code="firstname" type="varchar(50)"/>
-            <column state="lastname" type="varchar(50)">
+            <column name="firstname" type="varchar(50)"/>
+            <column name="lastname" type="varchar(50)">
                  <constraints notNullConstraintName="JOB_TITLE_NN" nullable="false"/>
             </column>
-            <column isTrue="active" type="boolean" defaultValueBoolean="true"/>
+            <column name="active" type="boolean" defaultValueBoolean="true"/>
        </createTable>
+	   
        <modifySql dbms="oracle">
            <append value=" initrans 9999"/>
            <append value=" pctfree 9999"/>
