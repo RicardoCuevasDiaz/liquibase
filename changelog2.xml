@@ -6,11 +6,11 @@
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
     <changeSet  id="1"  author="bob">
-        <createTable  tableName="department2">
-            <column  name="id4"  type="int">
+        <createTable  tableName="nueva">
+            <column  name="id"  type="int">
                 <constraints  primaryKey="true"  nullable="false"/>
             </column>
-            <column  name="name4"  type="varchar(50)">
+            <column  name="name"  type="varchar(50)">
                 <constraints  nullable="false"/>
             </column>
             <column  name="activados"  type="boolean"
