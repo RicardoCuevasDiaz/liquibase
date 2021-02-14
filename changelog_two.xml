@@ -7,11 +7,12 @@
             <column name="id" type="int">
                  
         </column>
-            <column name="firstname2" type="varchar(50)"/>
-            <column name="lastname2" type="varchar(50)">
+            <column name="firstname" type="varchar(50)"/>
+            <column name="lastname" type="varchar(50)">
                  
             </column>
             <column name="active" type="boolean" defaultValueBoolean="true"/>
+			<column name="isRicardo" type="boolean" defaultValueBoolean="true"/>
        </createTable>
 	   
        <modifySql dbms="oracle">
