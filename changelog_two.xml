@@ -3,7 +3,7 @@
    <changeSet author="bob" id="1">
       
 	   
-	     <createTable tableName="fuji">
+	     <createTable tableName="ricar">
             <column name="id" type="int">
                  
         </column>
